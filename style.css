@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    background-color:pink;
+    box-sizing: border-box;
+
+}
+h1{
+    text-align: center;
+    margin: 1rem 0 3rem;
+}
+.tittle{
+    color: purple ;
+    font-weight: 500;
+    font-size: 120px;
+}
+
+.inputdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    padding: 1px 6rem 0rem;
+    outline: none;
+    height: 50px;
+    border-radius:10px;
+    width: 320px;
+    margin:0.40rem;
+    transition: .5s;
+    font-size: 1.15rem;
+}
+.add{
+    outline: none;
+    border: none;
+    width: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+}
+.add:hover{
+    background: black;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem; 
+}
+.item_input{
+    background-color: #ddf9fc;
+    outline: none;
+    border: 3px solid #f5e2fd ;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 315px;
+}
+.remove{
+    background: none;
+    outline: none;
+    border: none;
+    color: purple;
+    font-size: 2rem;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.remove_btn{
+    margin-top: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:purple ;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    transition: all 0.4s ease 0s;
+    height: 15px;
+    width: 150px;
+}
+.remove_btn:hover{
+    background: plum;
+    letter-spacing: 1px; 
+}
